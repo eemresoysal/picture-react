@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.image {
+    width: 300px;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
